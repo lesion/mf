@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta class='viewport  content="width=device-width, initial-scale=1,user-scalable=no"' />
+
+  <title>prova</title>
+  <script type='text/javascript'>
+    window.brunch = window.brunch || {};
+    window.brunch.server = '127.0.0.1';
+  </script>
+
+  <link rel='stylesheet' href="css/vendor.css"/>
+  <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+
+
+  
+</head>
+  <app></app>
+
+  <script src="js/vendor.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    require('altra');
+    require('testami');
+    require('app');
+    riot.mount('*');
+    require('js/init');
+
+    var app = new Framework7();
+    var view = app.addView('.view-main',{dynamicNavbar:true,domCache: true});
+  </script>
+
+</body>
+</html>
+

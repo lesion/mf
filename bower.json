@@ -1,0 +1,32 @@
+{
+  "name": "mf",
+  "version": "0.0.1",
+  "authors": [
+    "lesion <lesion@autistici.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "Framework7": {
+      "main": [
+        "dist/js/framework7.min.js",
+        "dist/css/framework7.ios.min.css",
+        "dist/css/framework7.ios.colors.min.css"
+      ],
+      "scripts": ""
+    }
+  },
+  "resolutions": {
+    "Framework7": "~1.3.1"
+  },
+  "dependencies": {
+    "riot": "riotjs#~2.2.4",
+    "Framework7": "framework7#~1.3.1"
+  }
+}
