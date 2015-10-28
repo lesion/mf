@@ -11,4 +11,5 @@ app
 
   script.
     this.title = 'ciao'
+    console.log(this);
 
